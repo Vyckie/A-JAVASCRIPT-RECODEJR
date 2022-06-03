@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 196, 157);
+    height: 70px;
+}
+section{
+    margin: 20px;
+    margin:auto;
+    border-radius: 30px;
+    width:40%;
+    padding: 10px;
+    background-color: aquamarine;
+    text-size-adjust: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+button{
+    margin: auto;
+}
+input{
+    width: 70%;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
