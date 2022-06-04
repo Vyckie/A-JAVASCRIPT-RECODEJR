@@ -1,20 +1,16 @@
-//var descricao = "";
 var listaDeTarefas = [];
 
-const tabela = document.getElementById('tabela');
-
 function add(){
-    var tarefa = document.getElementById('valor').value;// armazena a tarefa que foi digitada atraves do input
-     
-    listaDeTarefas.push(tarefa) // lista com todas as tarefas digitadas
+    var tarefa = document.getElementById('valor').value;// armazena a tarefa que foi digitada 
     
+    listaDeTarefas.push(tarefa); // lista com todas as tarefas digitadas
+        
+    document.getElementById('valor').value=""; // limpar o valor na caixa do input
     
-
-    //document.getElementById('tabela').innerHTML = listaDeTarefas + "<input type='checkbox'>";
-    
-    document.getElementById('valor').value="";
     console.log(tarefa);
+     
     list();
+    console.log("ARRAY "+listaDeTarefas)
 }
 
 function list(){
@@ -28,6 +24,18 @@ function list(){
 
         coluna_check.innerHTML = "<input type='checkbox'>";
         coluna_tarefa.innerHTML = listaDeTarefas[i];
-        coluna_delet.innerHTML = "<input type='submit' value='delet'>"
+        coluna_delet.innerHTML = "<input type='button' onclick='delet("+i+")' value='delet'>";
+
+        
     }
+}
+
+function delet(i){
+    alert('Deletando '+ listaDeTarefas[i]);
+    var tbody = document.getElementById('tbody');
+    tbody.deleteRow(i); //deletar linha da tarefa
+    listaDeTarefas.splice(i,1);
+    list();
+   
+    
 }

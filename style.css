@@ -4,30 +4,49 @@ header{
 main{
     display: flex;
     flex-direction: row;
-    background-color: rgb(226, 196, 157);
-    height: 70px;
+    min-height:700px;
 }
-section{
+section{   
     margin: 20px;
     margin:auto;
-    border-radius: 30px;
+    border-radius: 10px;
+    min-width: 300px;
     width:40%;
+    min-height: 500px;
+    height: 90%;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: white;
+
     text-size-adjust: 0;
+    box-shadow: 1px 4px 10px;
 }
 nav{
     display: flex;
-    flex-direction: row;
     margin: 10px;
 }
 button{
     margin: auto;
 }
 input{
-    width: 70%;
+    width: 45%;
+    margin: auto;
+    background-color: rgb(121, 155, 248);
+    border-radius: 5px;
+    height: 30px;
+    
+    border: 0px;
+    cursor: pointer;
 }
 table{
+    margin:auto;
     border-collapse: collapse;
-    width: 80%;
+    min-width: 90%;
+}
+
+footer{
+    display: flex;
+}
+img{
+    width: 20%;
+    margin:auto;
 }

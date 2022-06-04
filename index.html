@@ -9,8 +9,12 @@
 </head>
 <body>
     <header>
-        <h1>Lista de tarefas</h1>
+        <h1>LISTA DE TAREFAS</h1>
     </header>
+    <nav>
+        <input id="valor" type="text" placeholder="Digite aqui uma nova tarefa">
+        <input id="adicionar" type="submit" onclick="add()" value="ADICIONAR"> 
+    </nav>
     <main>
         <section>
             <table border="1" id="tabela">
@@ -25,14 +29,11 @@
             </table>
 
         </section>
-       
     </main>
-    <nav>
-        <input id="valor" type="text" placeholder="Digite aqui uma nova tarefa">
-        <input id="adicionar" type="submit" onclick="add()" value="ADICIONAR">
-        <button id="delet" onclick="delet()" >DELETAR</button>
-    </nav>
-    
+    <footer>
+        <img src="logo-recode.png">
+    </footer>
+   
 </body>
 </html>
 <script src="./index.js" type="text/javascript">
