@@ -8,7 +8,7 @@ body{
 header{
     padding: 30px;
     text-align: center;
-    background-color: rgb(50, 51, 42);
+    background-color: rgb(43, 42, 51);
     color: white;
     height: 50px;
 }
@@ -41,7 +41,7 @@ button{
 input{
     min-width: 30%;
     margin: auto;
-    background-color: rgb(50, 51, 42);
+    background-color: rgb(43, 42, 51);
     border-radius: 5px;
     height: 30px;
     font-size:large;
@@ -51,7 +51,7 @@ input{
     color: white;
 }
 input:hover{
-    background-color: rgb(73, 75, 62);
+    background-color: rgb(26, 25, 34);
 }
 table{
     margin:auto;
