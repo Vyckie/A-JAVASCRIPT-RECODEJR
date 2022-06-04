@@ -23,7 +23,7 @@ function list(){
 
         coluna_check.innerHTML = "<input type='checkbox' onclick='check("+i+")'>"; //adiciona um checkbox na primeira coluna 
         coluna_tarefa.innerHTML = listaDeTarefas[i];//adiciona a tarefa na posição i na segunda coluna
-        coluna_delet.innerHTML = "<input type='button' onclick='delet("+i+")' value='delet'>"; // deletar tarefa na posição i
+        coluna_delet.innerHTML = "<input type='button' onclick='delet("+i+")' value='DELET'>"; // deletar tarefa na posição i
 
         
     }

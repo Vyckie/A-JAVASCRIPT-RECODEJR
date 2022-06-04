@@ -1,5 +1,16 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: rgb(249, 250, 250);
+}
 header{
+    padding: 30px;
     text-align: center;
+    background-color: rgb(50, 51, 42);
+    color: white;
+    height: 50px;
 }
 main{
     display: flex;
@@ -7,12 +18,12 @@ main{
     min-height:700px;
 }
 section{   
-    margin: 20px;
+    margin: 10px;
     margin:auto;
     border-radius: 10px;
     min-width: 300px;
     width:40%;
-    min-height: 500px;
+    min-height: 600px;
     height: 90%;
     padding: 10px;
     background-color: white;
@@ -22,26 +33,33 @@ section{
 }
 nav{
     display: flex;
-    margin: 10px;
+    margin: 50px;
 }
 button{
     margin: auto;
 }
 input{
-    width: 45%;
+    min-width: 30%;
     margin: auto;
-    background-color: rgb(121, 155, 248);
+    background-color: rgb(50, 51, 42);
     border-radius: 5px;
     height: 30px;
-    
+    font-size:large;
+    font-weight: bold;
     border: 0px;
     cursor: pointer;
+    color: white;
+}
+input:hover{
+    background-color: rgb(73, 75, 62);
 }
 table{
     margin:auto;
     border-collapse: collapse;
-    min-width: 90%;
+    border: 1px solid rgb(201, 196, 196);
+    width: 100%;
 }
+
 
 footer{
     display: flex;
