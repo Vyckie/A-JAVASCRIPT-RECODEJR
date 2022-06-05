@@ -66,7 +66,7 @@ function list2(){
         let coluna_delet = linha.insertCell();  
 
         coluna_tarefa.innerHTML = tarefasConcluidas[i];
-        coluna_delet.innerHTML = "<input type='button' onclick='delet2("+i+")' value='delet'>"; //deleta tarefa
+        coluna_delet.innerHTML = "<input type='button' onclick='delet2("+i+")' value='DELET'>"; //deleta tarefa
         
     }
 }
